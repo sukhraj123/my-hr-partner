@@ -1,0 +1,642 @@
+
+html,
+body {
+ background-image: url(/images/thom-holmes-k-xKzowQRn8-unsplash.jpg) ;
+ background-size: 100%;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+  overflow-x: hidden;
+  box-sizing: border-box;
+font-family: 'Raleway', sans-serif;
+       
+}
+.logo-text{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.logo img {
+width: 100px;
+}
+nav #user #publicKey {
+  right: 0;
+ 
+  padding: 5px;
+  justify-content: space-between;
+  width: 40px;
+  margin: auto;
+}
+
+nav.sticky{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #000000;
+  
+}
+nav.sticky .nav-links{
+  
+ 
+  background-color: #000000;
+  
+}
+nav.sticky .nav-links ul li a{
+  
+ 
+  color: #ffffff;
+  
+}
+    nav{
+        display: flex;
+        padding: 0% 6%;
+        
+        background: transparent ;
+        justify-content: space-between;
+        align-items: left;
+      
+}
+.nav-links{
+    flex: 1;
+   
+    width: fit-content;
+    text-align: center;
+    background-color: transparent;
+  
+  }
+#navbar img{
+  width: 200px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    animation: fadeIn 5s;
+    
+    
+  } 
+#imgg{
+  width: 300px;
+}
+  .nav-links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    background-attachment: fixed;
+    
+  }
+  #nav-linkss p{
+    display: flex;
+    padding: 0% 6%;
+    
+    background-attachment: fixed;
+    justify-content: space-between;
+    align-items: left;
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-linkss{
+flex: 1;
+background-color: #000000;
+width: fit-content;
+text-align: left;
+padding-left: 60%;
+
+
+}
+
+.nav-linkss ul li{
+list-style: none;
+display: block;
+padding: 8px 12px;
+
+animation: fadeIn 5s;
+
+
+} 
+
+.nav-linkss ul li a{
+color: #ffffff;
+text-decoration: none;
+font-size: 14px;
+background-attachment: fixed;
+
+}
+  .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #66aba3;
+    display: block;
+    margin: auto;
+  }
+  .nav-links ul li:hover::after{
+    width: 100%;
+  }
+  .text-boxx{
+    background: url(/images/mike-kenneally-zlwDJoKTuA8-unsplash.jpg);
+    background-size: 100%;
+    padding-top: 10%;
+background-repeat: no-repeat;
+    padding-bottom: 25%;
+  }
+  .text-contain{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    justify-content: space-between;
+    
+    border-radius: 10px;
+    padding: 50px;
+  }
+  .boxx p{
+    
+    font-size: 26px;
+    width: 400px;
+    
+  color: white;
+    border-radius: 2px;
+    border-radius: 10px;
+
+  }
+  .boxxx{
+    background-color: #00000072;
+    font-size: 26px;
+    width: 400px;
+    
+  color: white;
+    border-radius: 2px;
+    border-radius: 10px;
+
+  }
+  .boxxx img{
+    width: 400px;
+  }
+  .footer{
+    background-color: #000000;
+    padding-top: 100px;
+    
+    
+  }
+  .cr p{
+    font-size: 18px;
+    text-align: left;
+  }
+  .footer p{
+    background-color: #ffffff;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+  }
+ .footer img{
+  width: 350px;
+  
+ }
+  .boxx img{
+    width: 400px;
+  }
+  nav .fa{
+    display: none;}
+
+    .text-top{
+      width: 100%;
+      
+      background-size: 100%;
+      height: 100vh;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+display: flex;
+
+
+
+top: 0;
+left: 0;
+transform: translate(-10%, 10%);
+
+
+
+  }
+  .text-topp{
+    width: 60%;
+    
+    height: 80vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+display: flex;
+}
+.text-topt{
+  width: 100%;
+  background-image: url(/images/thom-holmes-k-xKzowQRn8-unsplash.jpg) ;
+  background-size: 100%;
+  height: 60vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+display: flex;
+}
+  .text-main{
+    padding-left: 15%;
+    width: 70%;
+    text-align: center;
+  }
+  .text-top h1{
+    font-size: 46px;
+    font-weight: 100;
+    color: #fff;
+    width: fit-content;
+    
+  }
+  h1{
+    color: #fff;
+    font-weight: 300;
+  }
+  h2{
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+  }
+  .text-topt h1{
+    font-size: 40px;
+    font-weight: 100;
+    color: #fff;
+    width: fit-content;
+    background-color: #00000072;
+  }
+  .text-topp h1{
+    font-size: 40px;
+    font-weight: 100;
+    color: #fff;
+    width: fit-content;
+    background-color: #00000072;
+    border-radius: 10px;
+  }
+    .text-top p{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    width: fit-content;
+    
+  }
+  .quote{
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .quote h1{
+    font-size: 32px;
+  }
+  .text-top a{
+    color: #fff;
+  }
+  .text-topt p{
+    font-size: 30px;
+    
+    color: #fff;
+    width: fit-content;
+    background-color: #00000072;
+  }
+  .main-image img{
+    width: 90%;
+    
+  }
+ .images-section img{
+  width: 30%;
+
+ }
+ .container{
+  max-width: 160rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  padding-top:10% ;
+  padding-bottom:10% ;
+  display: flex;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(/images/Studio_Project.gif);
+  background-size: 100%
+}
+.container img{
+  flex-direction: column;
+  margin: auto;
+  width: 40%;
+  
+  
+}
+.popular-tags-section{
+  background-color: #ffffff;
+}
+ .popular-tags-container{
+  gap: var(--gap);
+  display: flex;
+  
+  
+}
+
+.popular-tags-container .article{
+  min-height: var(--item-min-height-sm);
+}
+
+.tag-name{
+  padding: 1rem 2rem;
+  background-color: var(--transparent-dark-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.popular-tags-container .article:hover .tag-name{
+  color: var(--light-color);
+}
+
+.popular-tags-container .article{
+  overflow: hidden;
+}
+
+.popular-tags-container .article:hover .article-image{
+  transform: scale(1.05);
+  
+}
+
+.text-about{
+ display: flex;
+  background-color: #00000070;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-left: 10%;
+  width: 80%;
+}
+.text-about h1{
+  font-size: 45px;
+  color: #fff;
+}
+.text-about ul li{
+  text-align: left;
+  width: 80%;
+  color: #fff;
+  font-size: 26px;
+  padding: 15px;
+}
+.text-about ul{
+  
+  width: 60%;
+}
+.pic img{
+  width: 75%;
+}
+.footer-credit{
+  background-color: #ffffff;
+}
+/* Float four columns side by side */
+.column {
+  display: block;
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+ 
+  margin: -100px -5px;
+  
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #fcfcfc;
+  border-radius: 10px;
+  
+}
+.card p{
+  font-size: 20px;
+  font-weight: 400;
+}
+h2{
+  font: 200;
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    
+  }
+}
+@media(max-width: 700px){
+.container{
+  background-size: 300%;
+  background-position: center;
+}
+.card{
+  width: 100%;
+}
+  .nav-links ul li{
+    display: block;
+    color: #000000;
+    border: #00dcd1;
+}
+.nav-links ul li a{
+    display: block;
+    color: #000000;
+}
+.nav-links{
+    position: fixed;
+    background: #fff;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: right;
+    z-index: 1;
+    transition: 1s;
+    margin: auto;
+    
+}
+    
+
+nav .fa {
+    display: block;
+    color: #66aba3;
+    margin: 16px;
+    font-size: 32px;
+    cursor: pointer;
+    transition: 1s;
+
+    
+
+    }
+nav .fa-times{
+    display: block;
+    color: #66aba3;
+    margin: 16px;
+    font-size: 32px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.nav-links ul{
+  padding: 15px;
+  color: #040404;
+}
+.footer{
+  display: block;
+  width: 100%;
+}
+.nav-linkss{
+  display: block;
+  width: 100%;
+  padding-left: 10%;
+}
+.container{
+  display: block;
+  width: 100%;
+}
+.popular-tags-container{
+ 
+  display: block;
+  padding-right: 10%;
+  
+  
+}
+.text-top{
+  background-size: 200%;
+  height: 900px;
+  display: block;
+  padding-bottom: 200px;
+  width: 100%;
+  
+  
+}
+.text-top h1{
+  width: 100%;
+  padding-left: 10%;
+  font-size: 38px;
+}
+.text-top p{
+  font-size: 26px;
+  padding-left: 15%;
+}
+.main-image{
+  padding-left: 15%;
+}
+.text-main{
+  width: 90%;
+  height: fit-content;
+  padding-left: 0;
+  margin: auto;
+}
+.roww{
+  
+   display: flex;
+   margin: auto;
+    
+    
+  }
+
+
+}  
+
+/* Remove extra left and right margins, due to padding in columns */
+.roww {margin: -100px -5px;
+  
+  width: 90%;
+  padding-left: 5%;
+  
+}
+.yt{
+  padding-top: 50px;
+}
+.ytvid{
+ display: flex;
+ margin: auto;
+ padding-top: 300px;
+ text-align: left;
+ font-size: 22px;
+ background-color: #00000072;
+}
+.sec{
+  width: 80%;
+}
+/* Clear floats after the columns */
+
+/* Style the counter cards */
+.cardd {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .columnn {
+    width: 80%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.rrow {
+  width: 80%;
+  padding-left: 5%;
+  
+}
+.columnn {
+  float: left;
+  width: 25%;
+  justify-content: space-between;
+  
+}
+.cardd p{
+  font-size: 20px;
+  font-weight: 600;
+  
+  
+}
+.cardd{
+  padding: 15px;
+}
+/* Clear floats after the columns */
+.rroww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ccolumn {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
+
+/* Clear floats after the columns */
+.rrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .ccolumn {
+    width: 100%;
+  }
+}

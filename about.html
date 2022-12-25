@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HR Partner - Lets Be Partners</title>
+    <link rel="icon" href="image/4-removebg-preview.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aos-by-red.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"> 
+
+</head>
+<body>
+  
+    <img id="imgg" src="images/My HRPartner.jpg" alt="" width="70px" data-aos="fade-right"/>
+  
+  <nav id="navbar">
+   
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+
+        <ul id="menu">
+            
+            <div >
+
+              <li> <a href="index.html">HOME</a></li>
+              <li><a href="about.html"><b>ABOUT US</b></a></li>
+              <li><a href="ramgill.html">ABOUT RAM GILL</a></li>
+              <li><a href="#services.html">PACKAGES & SERVICES </a></li>
+              <li ><a  href="testimonials.html">TESTIMONIALS</a></li>
+              <li ><a  href="contact.html">CONTACT US</a></li>
+           
+        
+        </ul>
+
+    </div>
+       
+    
+    <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+</nav>
+
+    
+    
+
+      
+       <header class='text-topp'>
+        <div class="text-main">
+      <h1>I provide HR support services for business owners who want to create a work environment and culture where their team feels loved, cared for, and supported so they can deliver business results.   </h1>
+      
+      
+        
+      
+    </div>
+    
+       </header> 
+
+       <h1>I can help you:</h1> <br><br>
+
+<section class="text-about" id="text-about">
+    
+    <ul>
+
+       
+
+
+        <li>Attract the best employees available </li>
+        <li>Provide the best new hire and on-boarding experience</li>
+        <li>Have policies and procedures that make sense</li>
+        <li>Have HR programs in place that drive employee engagement, growth and development </li>
+        <li>Leverage technology to streamline and integrate your HR activities all in one low monthly cost</li>
+    </ul>
+        <ul>
+        <li>Are driving the best employee experience</li>
+        <li>Deliver on your promise</li>
+        <li>Help employees get connected to their work and the purpose of the company</li>
+        <li>Provide the best leadership to your people</li>
+
+     
+    
+    </ul>
+</section>
+
+
+<div><br><br></div>
+
+<section class="footer">
+
+    <div id="navbarr">
+       
+        <div class="nav-linkss" id="navLinkss">
+           
+            
+    
+            <ul id="menuu">
+                
+                <div >
+    
+                    <li> <a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="ramgill.html">ABOUT RAM GILL</a></li>
+                 
+                            <li><a href="services.html">PACKAGES & SERVICES </a></li>
+                            <li ><a  href="testimonials.html">TESTIMONIALS</a></li>
+                            <li ><a  href="contact.html">CONTACT US</a></li>
+               
+            
+            </ul>
+    
+        </div>
+           
+        
+        
+    </div>
+    
+    
+    
+    <div>
+            <img src="images/My HRPartner (1).jpg" alt="" data-aos="fade-up">
+    </div>
+            <div >
+              <p>Made by <a href="www.KeezRyuusei.ca">KeezRyuusei.ca</a> 
+                © 2023 MyHRPartner, All Rights Reserved.</p>
+            </div>
+          </section>
+    
+    
+
+
+
+
+      <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+    });
+    
+    
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 3000,
+            once: true,
+          });
+        </script>
+    
+    <script>
+    
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
+    
+        window.onscroll = function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navbar.classList.add("sticky");
+    
+            }
+            else{
+                navbar.classList.remove("sticky");
+            }
+        }
+    
+    </script>
+        
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+        
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            
+    
+           
+            
+        </script>
+        
+    
+</body>
+</html>
