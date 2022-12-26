@@ -1,0 +1,133 @@
+
+html,
+body {
+
+ background-image: url(/images/thom-holmes-k-xKzowQRn8-unsplash\ -\ Copy.jpg);
+ background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+  overflow-x: hidden;
+  box-sizing: border-box;
+font-family: 'Raleway', sans-serif;
+       
+}
+nav #user #publicKey {
+    right: 0;
+   
+    padding: 5px;
+    justify-content: space-between;
+    width: 40px;
+    margin: auto;
+  }
+  
+  nav.sticky{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #000000;
+    
+  }
+  nav.sticky .nav-links{
+    
+   
+    background-color: #000000;
+    
+  }
+  nav.sticky .nav-links ul li a{
+    
+   
+    color: #ffffff;
+    
+  }
+   nav{
+          display: flex;
+          padding: 0% 6%;
+          
+          background: transparent ;
+          justify-content: space-between;
+          align-items: left;
+        
+  }
+  .nav-links{
+      flex: 1;
+     
+      width: fit-content;
+      text-align: center;
+      background-color: transparent;
+    
+    }
+  #navbar img{
+    width: 200px;
+  }
+  .nav-links ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 8px 12px;
+      position: relative;
+      animation: fadeIn 5s;
+      
+      
+    } 
+  #imgg{
+    width: 300px;
+  }
+    .nav-links ul li a{
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 14px;
+      background-attachment: fixed;
+      
+    }
+    #nav-linkss p{
+      display: flex;
+      padding: 0% 6%;
+      
+      background-attachment: fixed;
+      justify-content: space-between;
+      align-items: left;
+      background-color: rgb(0, 0, 0);
+  }
+  
+  .nav-linkss{
+  flex: 1;
+  background-color: #000000;
+  width: fit-content;
+  text-align: left;
+  padding-left: 60%;
+  
+  
+  }
+  
+  .nav-linkss ul li{
+  list-style: none;
+  display: block;
+  padding: 8px 12px;
+  
+  animation: fadeIn 5s;
+  
+  
+  } 
+  
+  .nav-linkss ul li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  background-attachment: fixed;
+  
+  }
+    .nav-links ul li::after{
+      content: '';
+      width: 0%;
+      height: 2px;
+      background: #66aba3;
+      display: block;
+      margin: auto;
+    }
+    .nav-links ul li:hover::after{
+      width: 100%;
+    }
