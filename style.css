@@ -644,7 +644,7 @@ body{
   margin: auto;
 }
 .columnn{
-  display: inline-block;
+  display: ;
   margin: auto;
   width: 100%;
 }
@@ -700,6 +700,38 @@ body{
 .para-container p{
   width: 80%;
   
+}
+.socialm{
+  width: 10%;
+  background-color: transparent;
+  display: block;
+  padding-left: 70%;
+  padding-top: 20%;
+  
+}
+.socialm ol{
+  list-style: circle;
+  text-decoration: none;
+}
+.social li{
+ 
+  
+  margin: 15px;
+  
+}
+.social a{
+  list-style: none;}
+.social a img{
+  list-style: none;
+ margin: auto;
+  display: flex;
+  width: 30px;
+  list-style-position: outside;
+  
+  text-decoration: none;
+  background: transparent;
+  background-attachment: fixed;
+  position: fixed;
 }
 
 
