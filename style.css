@@ -260,7 +260,7 @@ transform: translate(0%, 20%);
 
   }
   .text-topp{
-    width: 60%;
+    width: 100%;
     
     height: 80vh;
     background-attachment: fixed;
@@ -573,6 +573,10 @@ nav .fa-times{
   padding: 15px;
   color: #040404;
 }
+.main-image img{
+  width: 80%;
+  
+}
 .footer{
   display: block;
   width: 100%;
@@ -597,8 +601,9 @@ html,
 body{
   background-size: 280%;
 }
+
 .text-top{
-  
+  transform: translate(0%, -20%);
   height: 900px;
   display: block;
   background-size: 250%;
@@ -609,12 +614,60 @@ body{
   width: 100%;
   padding-left: 10%;
   font-size: 38px;
+  background-color: #fcfcfc;
+  border-radius: 10px;
+  box-shadow: #D6D6E7;
+  padding-bottom: 0%;
+  
 }
 .text-top p{
   font-size: 26px;
   padding-left: 15%;
   
 }
+.text-topp{
+  width: 100%;
+  margin: auto;
+}
+.text-topp h1{
+  width: 100%;
+  
+  font-size: 28px;
+  background-color: #fcfcfc;
+  border-radius: 10px;
+  box-shadow: #D6D6E7;
+  padding-bottom: 0%;
+  
+}
+.roww{
+  display: block;
+  margin: auto;
+}
+.columnn{
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+}
+.text-about{
+  display: block;
+   padding-left: 0%;
+   width: 100%;
+ }
+ .text-about h1{
+   font-size: 45px;
+   color: #fff;
+ }
+ .text-about ul li{
+   text-align: left;
+   width: 90%;
+   color: #fff;
+   font-size: 26px;
+   padding: 15px;
+ }
+ .text-about ul{
+   
+   width: 90%;
+ }
 .main-image{
   padding-left: 15%;
   
@@ -631,9 +684,23 @@ body{
   
    display: flex;
    margin: auto;
+
     
     
   }
+.column{
+  width: 80%;
+  padding-bottom: 10px;
+  text-align: center;
+  
+}
+.para-container{
+  padding-right: 15%;
+}
+.para-container p{
+  width: 80%;
+  
+}
 
 
 }  
@@ -670,14 +737,7 @@ body{
   
 }
 
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-  .columnn {
-    width: 80%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
+
 .rrow {
   width: 80%;
   padding-left: 5%;
