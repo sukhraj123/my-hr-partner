@@ -603,7 +603,7 @@ body{
 }
 
 .text-top{
-  transform: translate(0%, -20%);
+  transform: translate(0%, -0%);
   height: 900px;
   display: block;
   background-size: 250%;
@@ -612,7 +612,7 @@ body{
 }
 .text-top h1{
   width: 100%;
-  padding-left: 10%;
+  padding-left: 0%;
   font-size: 38px;
   background-color: #fcfcfc;
   border-radius: 10px;
@@ -644,7 +644,7 @@ body{
   margin: auto;
 }
 .columnn{
-  display: ;
+
   margin: auto;
   width: 100%;
 }
