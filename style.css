@@ -2,7 +2,7 @@
 html,
 body {
 
-  background-image: url(./images/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
+  background-image: url(./images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -54,7 +54,7 @@ nav.sticky .nav-links ul li a{
         display: flex;
         padding: 0% 6%;
         
-        background: transparent ;
+        background: black ;
         justify-content: space-between;
         align-items: left;
       
@@ -64,12 +64,47 @@ nav.sticky .nav-links ul li a{
    
     width: fit-content;
     text-align: center;
-    background-color: transparent;
+    background-color: black;
   
   }
 #navbar img{
   width: 200px;
 }
+nav img{
+  width: 20px;
+}
+.socialm{
+  width: 10%;
+  background-color: transparent;
+  display: flex;
+  padding-left: 90%;
+  
+}
+.socialm ol{
+  list-style: circle;
+  text-decoration: none;
+}
+.social li{
+ 
+  
+  margin: 15px;
+  
+}
+.social a{
+  list-style: none;}
+.social a img{
+  list-style: none;
+ margin: auto;
+  display: flex;
+  width: 30px;
+  list-style-position: outside;
+  
+  text-decoration: none;
+  background: transparent;
+  background-attachment: fixed;
+  position: fixed;
+}
+
 #navbar b{
   color: #2e3cd8;
 
@@ -210,7 +245,7 @@ background-repeat: no-repeat;
     .text-top{
       width: 100%;
       background-size: 100%;
-      height: 100vh;
+      height: 700px;
       
       display: flex;
 
@@ -219,7 +254,7 @@ background-repeat: no-repeat;
     
 top: 0;
 left: 0;
-transform: translate(-10%, 10%);
+transform: translate(0%, 20%);
 
 
 
@@ -242,24 +277,25 @@ display: flex;
 display: flex;
 }
   .text-main{
-    padding-left: 15%;
-    width: 70%;
+    padding-left: 5%;
+    width: 90%;
     text-align: center;
   }
   .text-top h1{
-    font-size: 56px;
-    font-weight: 300;
-    color: rgb(255, 255, 255);
+    font-size: 66px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
     width: fit-content;
     border-radius: 10px;
-    
+    padding-bottom: 400px;
     box-shadow: #D6D6E7;
-    font-family: 'Russo One', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   h1{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   h2{
     color: #fff;
@@ -276,20 +312,22 @@ display: flex;
   .text-topp h1{
     font-size: 40px;
     font-weight: 100;
-    color: #fff;
+    color: rgb(0, 0, 0);
     width: fit-content;
-    background-color: #00000072;
+    box-shadow: #D6D6E7;
+    background-color: #fcfcfc;
     border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
     .text-top p{
     font-size: 30px;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
+    font-weight: 300;
+    color: rgb(10, 10, 10);
     width: fit-content;
     border-radius: 10px;
-    
+    background-color: #fcfcfc;
     box-shadow: #D6D6E7;
-    font-family: 'Russo One', sans-serif;
+    
   }
   .quote{
     background-color: #000000;
@@ -314,7 +352,7 @@ display: flex;
     background-color: #00000072;
   }
   .main-image img{
-    width: 90%;
+    width: 20%;
     
   }
  .images-section img{
@@ -450,6 +488,18 @@ display: flex;
   border-radius: 10px;
   
 }
+.para-container{
+  background-color: #fff;
+  padding-bottom: 250px;
+  padding-top: 250px;
+  justify-content: center;
+}
+.para-container p{
+  padding-left: 20%;
+  width: 60%;
+  
+  font-size: 26px;
+}
 .card p{
   font-size: 20px;
   font-weight: 400;
@@ -501,7 +551,7 @@ h2{
 
 nav .fa {
     display: block;
-    color: #66aba3;
+    color: #2e3cd8;
     margin: 16px;
     font-size: 32px;
     cursor: pointer;
@@ -512,7 +562,7 @@ nav .fa {
     }
 nav .fa-times{
     display: block;
-    color: #66aba3;
+    color: #2e3cd8;
     margin: 16px;
     font-size: 32px;
     cursor: pointer;
@@ -543,12 +593,15 @@ nav .fa-times{
   
   
 }
+html,
+body{
+  background-size: 280%;
+}
 .text-top{
   
   height: 900px;
   display: block;
-  padding-bottom: 400px;
-  width: 100%;
+  background-size: 250%;
   
   
 }
