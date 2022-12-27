@@ -120,7 +120,17 @@ nav img{
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
+header h1{
+  font-size: 66px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 10px;
+    padding-bottom: 400px;
+    box-shadow: #D6D6E7;
+    text-shadow: rgb(31, 31, 31) 1px 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /* Style the icon bar links */
 .icon-bar a {
   display: block;
@@ -167,7 +177,7 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 16px 18px;
     position: relative;
     animation: fadeIn 5s;
     
@@ -178,7 +188,7 @@ nav img{
 
   }
 #imgg{
-  width: 300px;
+  width: 30%;
 }
   .nav-links ul li a{
     color: #ffffff;
@@ -340,6 +350,17 @@ display: flex;
     width: 90%;
     text-align: center;
   }
+  .text-main h1{
+    font-size: 46px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 10px;
+    padding-bottom: 400px;
+    box-shadow: #D6D6E7;
+    text-shadow: rgb(31, 31, 31) 1px 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
   .text-top h1{
     font-size: 66px;
     font-weight: 600;
@@ -363,20 +384,25 @@ display: flex;
     font-size: 26px;
   }
   .text-topt h1{
-    font-size: 40px;
-    font-weight: 100;
-    color: #fff;
+    font-size: 66px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
     width: fit-content;
-    background-color: #00000072;
+    border-radius: 10px;
+    padding-bottom: 400px;
+    box-shadow: #D6D6E7;
+    text-shadow: rgb(31, 31, 31) 1px 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .text-topp h1{
-    font-size: 40px;
-    font-weight: 100;
-    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
     width: fit-content;
-    box-shadow: #D6D6E7;
-    background-color: #fcfcfc;
     border-radius: 10px;
+    padding-bottom: 400px;
+    box-shadow: #D6D6E7;
+    text-shadow: rgb(31, 31, 31) 1px 0 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
     .text-top p{
@@ -412,7 +438,7 @@ display: flex;
     background-color: #00000072;
   }
   .main-image img{
-    width: 20%;
+    width: 100%;
     
   }
  .images-section img{
@@ -488,15 +514,23 @@ display: flex;
 
 .text-about{
  display: flex;
-  background-color: #00000070;
+  background-color: #00000072;
   background-size: 100%;
   background-repeat: no-repeat;
-  padding-left: 10%;
-  width: 80%;
+  padding-bottom: 100px;
+  width: 100%;
 }
 .text-about h1{
   font-size: 45px;
-  color: #fff;
+  color: rgb(0, 0, 0);
+}
+.text-about p{
+  font-size: 45px;
+  padding-left: 12.5%;
+  font-weight: 100;
+  width: 75%;
+  color: rgb(0, 0, 0);
+  
 }
 .text-about ul li{
   text-align: left;
@@ -524,10 +558,24 @@ display: flex;
   
 }
 
+.columnnn {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.rowww img{
+  width: 100%;
+  background-size: 100%;
+  background-position: center;
+  background-image: url(./images/genuinely\ cares\ about\ people\ wants\ to\ help\ create\ great\ workplaces\ wants\ to\ see\ people\ happy\ in\ their\ work\ and\ personal\ life\ wants\ people\ winning.jpg);
+}
 /* Remove extra left and right margins, due to padding in columns */
 .row {
  
   margin: -100px -5px;
+  padding-top: 100px;
+  padding-left: 10%;
   
 }
 
@@ -577,11 +625,13 @@ h2{
     
   }
 }
+
 @media(max-width: 700px){
 .container{
   background-size: 300%;
   background-position: center;
 }
+
 .icon-bar {
   position: fixed;
   top: 75%;
@@ -648,6 +698,10 @@ nav .fa-times{
   width: 80%;
   
 }
+.text-topp.main-image img{
+  width: 80%;
+  
+}
 .footer{
   display: block;
   width: 100%;
@@ -699,26 +753,19 @@ body{
 .text-topp{
   width: 100%;
   margin: auto;
+  padding-left: 10%;
 }
 .text-topp h1{
   width: 100%;
   
   font-size: 28px;
-  background-color: #fcfcfc;
+ 
   border-radius: 10px;
   box-shadow: #D6D6E7;
   padding-bottom: 0%;
   
 }
-.roww{
-  display: block;
-  margin: auto;
-}
-.columnn{
 
-  margin: auto;
-  width: 100%;
-}
 .text-about{
   display: block;
    padding-left: 0%;
@@ -751,14 +798,7 @@ body{
   margin: auto;
   
 }
-.roww{
-  
-   display: flex;
-   margin: auto;
 
-    
-    
-  }
 .column{
   width: 80%;
   padding-bottom: 10px;
@@ -811,15 +851,21 @@ nav img{
 }
 }  
 
+.roww:after {
+    content: "";
+  display: table;
+    clear: both;
+  }
 /* Remove extra left and right margins, due to padding in columns */
-.roww {margin: -100px -5px;
-  
-  width: 90%;
-  padding-left: 5%;
-  
+.columnn {
+  float: left;
+  width: 25%;
 }
-.yt{
-  padding-top: 50px;
+
+/* Clear floats after the columns */
+
+.yt iframe{
+  background-color: #fcfcfc;
 }
 .ytvid{
  display: flex;
@@ -849,12 +895,7 @@ nav img{
   padding-left: 5%;
   
 }
-.columnn {
-  float: left;
-  width: 25%;
-  justify-content: space-between;
-  
-}
+
 .cardd p{
   font-size: 20px;
   font-weight: 600;
@@ -864,12 +905,7 @@ nav img{
 .cardd{
   padding: 15px;
 }
-/* Clear floats after the columns */
-.rroww:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 a.button {
   -webkit-appearance: button;
   -moz-appearance: button;
@@ -945,5 +981,11 @@ a.button {
 @media screen and (max-width: 600px) {
   .ccolumn {
     width: 100%;
+  }
+  .cardd{
+    width: 100%;
+    flex-direction: row
+    
+    ;
   }
 }
