@@ -2,7 +2,7 @@
 html,
 body {
 
-  background-image: url(./images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg);
+  background-image: url(./images/tim-swaan-eOpewngf68w-unsplash.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -73,41 +73,96 @@ nav.sticky .nav-links ul li a{
 nav img{
   width: 20px;
 }
-.socialm{
-  width: 10%;
-  background-color: transparent;
-  display: flex;
-  padding-left: 90%;
-  
-}
+
 .socialm ol{
   list-style: circle;
   text-decoration: none;
 }
 .social li{
- 
+ width: 30px;
   
   margin: 15px;
   
 }
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
 .social a{
   list-style: none;}
-.social a img{
+.socialm img{
   list-style: none;
  margin: auto;
   display: flex;
   width: 30px;
-  list-style-position: outside;
+ 
+
   
-  text-decoration: none;
-  background: transparent;
-  background-attachment: fixed;
-  position: fixed;
+  
+  
 }
 
 #navbar b{
   color: #2e3cd8;
 
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+.instagram {
+  background: #FCAF45;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
 }
 .nav-links ul li{
     list-style: none;
@@ -118,6 +173,10 @@ nav img{
     
     
   } 
+  .nav-links .socialm img{
+    width: 30px;
+
+  }
 #imgg{
   width: 300px;
 }
@@ -284,11 +343,12 @@ display: flex;
   .text-top h1{
     font-size: 66px;
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: fit-content;
     border-radius: 10px;
     padding-bottom: 400px;
     box-shadow: #D6D6E7;
+    text-shadow: rgb(31, 31, 31) 1px 0 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
@@ -369,7 +429,7 @@ display: flex;
   display: flex;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-image: url(./images/Studio_Project.gif);
+  background-image: url(./images/ezgif.com-gif-maker.gif);
   background-size: 100%
 }
 .container img{
@@ -522,6 +582,17 @@ h2{
   background-size: 300%;
   background-position: center;
 }
+.icon-bar {
+  position: fixed;
+  top: 75%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a {
+  display: block;
+  
+}
 .card{
   width: 100%;
 }
@@ -614,7 +685,7 @@ body{
   width: 100%;
   padding-left: 0%;
   font-size: 38px;
-  background-color: #fcfcfc;
+  
   border-radius: 10px;
   box-shadow: #D6D6E7;
   padding-bottom: 0%;
@@ -705,7 +776,7 @@ body{
   width: 10%;
   background-color: transparent;
   display: block;
-  padding-left: 70%;
+  padding-right: 10%;
   padding-top: 20%;
   
 }
@@ -719,9 +790,10 @@ body{
   margin: 15px;
   
 }
+
 .social a{
   list-style: none;}
-.social a img{
+.social li img{
   list-style: none;
  margin: auto;
   display: flex;
@@ -734,7 +806,9 @@ body{
   position: fixed;
 }
 
-
+nav img{
+  width: 30px;
+}
 }  
 
 /* Remove extra left and right margins, due to padding in columns */
