@@ -24,6 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="loader"></div>
   <div class="icon-bar">
     <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
     <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -199,7 +200,18 @@
             © 2023 MyHRPartner, All Rights Reserved.</p>
         </div>
       </section>
+      <script>
+        window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
 
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
+      </script>
 
 
 

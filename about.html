@@ -20,6 +20,7 @@
 
 </head>
 <body>
+    <div class="loader"></div>
     <div class="icon-bar">
         <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -38,8 +39,8 @@
                  
                  
      
-         <li> <a href="index.html"><b>HOME</b></a></li>
-         <li><a href="about.html">ABOUT US</a></li>
+         <li> <a href="index.html">HOME</a></li>
+         <li><a href="about.html"><b>ABOUT US</b></a></li>
          <li><a href="ramgill.html">ABOUT RAM GILL</a></li>
       
                  <li><a href="services.html">PACKAGES & SERVICES </a></li>
@@ -145,7 +146,18 @@
     
     
     
+<script>
+    window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
 
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
+</script>
 
 
 

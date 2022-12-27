@@ -2,7 +2,7 @@
 html,
 body {
 
-  background-image: url(./images/tim-swaan-eOpewngf68w-unsplash.jpg);
+  background-image: url(./images/matt-whitacre-jQ2nuPzGxQI-unsplash.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -347,7 +347,7 @@ display: flex;
 }
   .text-main{
     padding-left: 5%;
-    width: 90%;
+    width: 80%;
     text-align: center;
   }
   .text-main h1{
@@ -395,7 +395,7 @@ display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .text-topp h1{
-    font-size: 46px;
+    font-size: 42px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     width: fit-content;
@@ -438,6 +438,10 @@ display: flex;
     background-color: #00000072;
   }
   .main-image img{
+    width: 20%;
+    
+  }
+  .main-imagee img{
     width: 100%;
     
   }
@@ -987,5 +991,43 @@ a.button {
     flex-direction: row
     
     ;
+  }
+}
+
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333333;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #fcfcfc;
+  border-top-color: #2e3cd8;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
   }
 }
