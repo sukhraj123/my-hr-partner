@@ -379,5 +379,66 @@ display: block;
     display: block;
     margin-top: 10px;
     margin-bottom: 20px;
+    
   }
+  .row{
+    background-image: url(./images/m\ \(1\).jpg);
+    height: 70vh;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    
+}
+.rowtwo{
+    background-image: url(./images/m\ \(2\).jpg);
+    height: 100vh;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+}
+.rowthree{
+    background-image: url(./images/m\ \(3\).jpg);
+    height: 70vh;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+
+}
+.rowthree img{
+    height: 50px;
+    padding-top: 340px;
+    padding-left: 50px;
+}
+.rowfour{
+    background-image: url(./images/m\ \(4\).jpg);
+    height: 70vh;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+
+}
+.rowfive{
+    background-image: url(./images/m\ \(5\).jpg);
+    height: 90vh;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+
+}
+.rowsix{
+    background-image: url(./images/m\ \(6\).jpg);
+    height: 100vh;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+
+}
+.rowseven{
+    background-image: url(./images/m\ \(7\).jpg);
+    height: 80vh;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+
+}
   }
