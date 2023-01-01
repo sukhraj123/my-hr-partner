@@ -36,6 +36,7 @@
             <li><a href="#ram" class="hero-htn">About Ram Gill</a></li>
             <li><a href="#test" class="hero-htn">Testimonials</a></li>
             <li><a href="#service" class="hero-htn">Packages & Services</a></li>
+            <li><a href="#contact" class="hero-htn">Contact Us</a></li>
            
         
         
@@ -75,6 +76,51 @@
 
 </div>
 
+<div id="contact">
+    <img src="./images/melinda-gimpel-5Ne6mMQtIdo-unsplash.jpg" alt="">
+    <div class="fcf-body">
+
+        <div id="fcf-form">
+        <h3 class="fcf-h3">Contact us</h3>
+        
+        <script type="text/javascript">var submitted=false</script>
+            <iframe  name="hidden" id="hidden" style="display: none;" onload="if(submitted){window.location='thanks.html';}"></iframe>
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSdgbuWQ5BkOSshtPExikCZ5XQH7z4c-KDvZeF1o-xuoTLWfCg/formResponse" method="post" target="hidden" onsubmit="submitted=true">
+            
+            
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="entry.2005620554" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="entry.1045781291" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your Phone Number</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="entry.1791428353" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+            </div>
+    
+            
+    
+        </form>
+        </div>
+    
+    </div>
+
+
 
 
 
@@ -88,6 +134,7 @@
             <li><a href="#ram" class="hero-htn">About Ram Gill</a></li>
             <li><a href="#test" class="hero-htn">Testimonials</a></li>
             <li><a href="#order" class="hero-htn">Packages & Services</a></li>
+            <li><a href="#contact" class="hero-htn">Contact Us</a></li>
            
         
          </ul>
@@ -107,6 +154,16 @@
     </div>
     
       </footer>
+
+
+
+
+
+      
+
+
+
+
 
 
 
@@ -163,11 +220,17 @@ anchor.addEventListener('click', function (e) {
         
     </script>
     <script>
-        var num1 = window.prompt("enter yearly earnings")
-var num1 = window.prompt("Dollars per hour")
+        function getBaseLog(x, y) {
+  return Math.log(y) / Math.log(x);
+}
 
-document.write(num1 / num2)
+// 2 x 2 x 2 = 8
+console.log(getBaseLog(2, 8));
+// expected output: 3
 
+// 5 x 5 x 5 x 5 = 625
+console.log(getBaseLog(5, 625));
+// expected output: 4
     </script>
 </body>
 </html>
