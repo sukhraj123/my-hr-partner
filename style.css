@@ -10,9 +10,9 @@
 nav.sticky{
     position: fixed;
     top: 0;
-    width: 10%;
-    background-color: transparent;
+    width: 100%;
     
+    height: 100vh;
 }
 .font{
   font-weight: 900;
@@ -51,7 +51,68 @@ nav.sticky{
   font-size: 36px;
   margin-left: 50px;
 }
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+header h1{
+  font-size: 66px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 10px;
+    padding-bottom: 400px;
+    box-shadow: #D6D6E7;
+    text-shadow: rgb(31, 31, 31) 1px 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 14px;
+}
 
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+.instagram {
+  background: #FCAF45;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -65,8 +126,7 @@ nav{
     align-items: center;
     width: 100%;
 
-   
-   background-color: white;
+  
     
 }
 nav img{
@@ -241,11 +301,20 @@ nav .fa-times{
     width: 200%;
 }
 }
+h2{
+  font-size: 32px;
+  text-align: center;
+}
+p{
+  font-size: 18px;
+  text-align: center;
+}
 .header{
     background-image: url(./images/aaron-blanco-tejedor-yH18lOSaZVQ-unsplash.jpg),linear-gradient(rgb(0, 0, 0), rgb(80, 80, 80));
     height: 100vh;
     background-size: 100%;
     width: 100%;
+    padding-bottom: 100px;
     background-repeat: no-repeat;
 }
 .header h1{
@@ -256,12 +325,21 @@ nav .fa-times{
     font-size: 62px;
 }
 .row{
-    background-image: url(./images/1.jpg);
-    height: 70vh;
+    background-image: url(/mages/1.jpg);
+    padding-top: 25vh;
     background-size: 80%;
     background-repeat: no-repeat;
-    margin-left: 20%;
+    padding-bottom: 25vh;
+    width: 50%;
+    margin-left: 25%;
     
+}
+.row h2{
+  text-align: center;
+}
+.row p{
+  widows: 60%;
+  text-align: center;
 }
 .rowtwo{
     background-image: url(./images/2.jpg);
@@ -272,7 +350,7 @@ nav .fa-times{
 }
 .rowthree{
     background-image: url(./images/3.jpg);
-    height: 70vh;
+    height: 80vh;
     background-size: 80%;
     background-repeat: no-repeat;
     margin-left: 20%;
@@ -284,27 +362,37 @@ nav .fa-times{
     padding-left: 50px;
 }
 .rowfour{
-    background-image: url(./images/4.jpg);
-    height: 70vh;
+  background-image: url(./images/4.jpg);
+    height: 90vh;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-left: 20%;
+
+}
+
+.rowfour img{
+  padding-left: 200px;
+  
+  
+}
+.four{
+  width: 60%;
+}
+.rowfive{
+    background-image: url(./images/5.jpg);
+    height: 90vh;
     background-size: 80%;
     background-repeat: no-repeat;
     margin-left: 20%;
 
 }
-.rowfive{
-    background-image: url(./images/5.jpg);
-    height: 90vh;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    margin-left: 10%;
-
-}
 .rowsix{
     background-image: url(./images/6.jpg);
     height: 90vh;
-    background-size: 90%;
+    background-size: 80%;
     background-repeat: no-repeat;
-    margin-left: 10%;
+    margin-left: 20%;
 
 }
 .rowseven{
@@ -398,10 +486,11 @@ footer{
   text-align: center;
 }
 .footer-bottom p{
-  float: left;
+  float: right;
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
+  padding-right: 50px;
 }
 .footer-bottom p a{
  color:#fa7e09;
@@ -454,11 +543,13 @@ display: block;
     
   }
   .row{
-    background-image: url(./images/m\ \(1\).jpg);
-    height: 70vh;
+    
+    padding-top: 25vh;
     background-size: 80%;
     background-repeat: no-repeat;
-    margin-left: 20%;
+    padding-bottom: 25vh;
+    width: 100%;
+    margin-left: 0;
     
 }
 .rowtwo{
@@ -487,6 +578,7 @@ display: block;
     background-size: 80%;
     background-repeat: no-repeat;
     margin-left: 20%;
+    display: block;
 
 }
 .rowfive{
