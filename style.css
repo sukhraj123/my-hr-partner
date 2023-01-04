@@ -627,23 +627,26 @@ display: block;
 }
 .rowtwo{
     background-image: url(./images/m\ \(2\).jpg);
-    height: 100vh;
-    background-size: 80%;
+    height: 130vh;
+    background-size: 90%;
     background-repeat: no-repeat;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .rowthree{
     background-image: url(./images/m\ \(3\).jpg);
-    height: 70vh;
-    background-size: 80%;
+    height: 100vh;
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin-left: 20%;
+    margin-left: 0%;
 
 }
 .rowthree img{
     height: 50px;
-    padding-top: 340px;
+    padding-top: 520px;
     padding-left: 50px;
+}
+.pack{
+  display: none;
 }
 .rowfour{
     background-image: url(./images/m\ \(4\).jpg);
@@ -666,21 +669,21 @@ display: block;
 .rowsix{
     background-image: url(./images/m\ \(6\).jpg);
     height: 100vh;
-    background-size: 90%;
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin-left: 10%;
+    margin-left: 0%;
 
 }
 .rowseven{
     background-image: url(./images/m\ \(7\).jpg);
-    height: 80vh;
-    background-size: 80%;
+    height: 100vh;
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin-left: 20%;
+    margin-left: 0%;
 
 }
 .header{
-  background-size: 200%;
+  background-size: 250%;
   background-position: center;
 }
   }
