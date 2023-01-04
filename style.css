@@ -647,10 +647,11 @@ display: block;
 }
 .rowfour{
     background-image: url(./images/m\ \(4\).jpg);
-    height: 70vh;
-    background-size: 80%;
+    height: 55vh;
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-bottom: -200px;
     display: block;
 
 }
