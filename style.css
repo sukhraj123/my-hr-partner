@@ -129,7 +129,7 @@ header h1{
     color: rgb(255, 255, 255);
     width: fit-content;
     border-radius: 10px;
-    padding-bottom: 400px;
+    padding-bottom: 300px;
     box-shadow: #D6D6E7;
     text-shadow: rgb(31, 31, 31) 1px 0 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -207,6 +207,7 @@ nav img{
 }
 #contact img{
   width: 50%;
+  
   display: flex;
   margin-bottom: -410px;
 }
@@ -388,14 +389,15 @@ p{
     background-size: 100%;
     width: 100%;
     padding-bottom: 100px;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 .header h1{
     text-align: left;
-    padding-top: 30%;
+    padding-top: 18%;
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0);
-    font-size: 62px;
+    font-size: 66px;
 }
 .row{
     background-image: url(/mages/1.jpg);
@@ -459,6 +461,7 @@ p{
     background-repeat: no-repeat;
     height: 100vh;
     padding-top: 50vh;
+    background-attachment: fixed;
     
 
 }
