@@ -824,6 +824,9 @@ footer .bottom-details .bottom_text{
   .box{
     display: block;
   }
+  .about{
+    padding-top: 0px;
+  }
 }
 @media (max-width: 700px){
   footer{
@@ -939,6 +942,7 @@ footer .bottom-details .bottom_text{
     margin-left: 10%;
     margin-bottom: -200px;
     display: block;
+    padding-top: 0;
 
 }
 .rowfive{
@@ -968,6 +972,7 @@ footer .bottom-details .bottom_text{
 .header{
   background-size: 100%;
   background-image: url(./images/you.jpg);
+  height: 100vh;
  
 }
   }
