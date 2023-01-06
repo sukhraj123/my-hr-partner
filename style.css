@@ -4,6 +4,7 @@
     
     font-family: 'Oswald', sans-serif;
     overflow-x: hidden;
+    width: ;%
 
 }
 li{
@@ -316,7 +317,7 @@ nav{
   background-image: url(./images/Your\ cost\ effective\ HR\ Department.jpg);
   background-size: 100%;
   background-attachment: fixed;
- 
+ width: 100%;
   
 }
 nav ul li ul{
@@ -357,7 +358,7 @@ nav .fa{
     position: fixed;
     background: #111;
     height: 100vh;
-    width: 200px;
+    width: 180px;
     top: 0;
     right: -200px;
     text-align: right;
@@ -745,7 +746,7 @@ footer .content .link-boxes .box{
   text-decoration: underline;
 }
 .content .link-boxes .input-box{
-  margin-right: 55px;
+  margin-right: 0px;
 }
 .link-boxes .input-box input{
   height: 40px;
@@ -813,9 +814,13 @@ footer .bottom-details .bottom_text{
   footer .content .link-boxes{
     flex-wrap: wrap;
   }
+  .bottom-details .bottom_text a{
+    margin-right: 0px;
+  }
   footer .content .link-boxes .input-box{
     width: 100%;
     margin-top: 10px;
+    margin-right: 0;
   }
   .link_name{
     display: block;
@@ -896,9 +901,7 @@ footer .bottom-details .bottom_text{
   #contact img{
     width: 100%;
   }
-  nav.sticky{
-    width: 100%;
-  }
+  
   .footer-menu ul{
     display: block;
     margin-top: 10px;
