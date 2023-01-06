@@ -117,6 +117,7 @@ header h1{
   background-image: url(./images/Your\ cost\ effective\ HR\ Department.jpg);
   background-size: 100%;
   padding-top: 10px;
+  background-repeat: no-repeat;
 }
 .banner p{
   text-align: right;
@@ -181,6 +182,7 @@ ul li ul li a{
   display: none;
   color: #ffffff;
   padding: 5px;
+  font-size: 11px;
 }
 ul li:hover ul li a{
   display: block;
@@ -301,8 +303,8 @@ nav img{
 h1{
     text-align: center;
     padding-top: 50px;
-    font-size: 32px;
-    
+    font-size: 38px;
+    font-weight: 300;
     font-family: 'Roboto Condensed', sans-serif;
 }
 nav{
@@ -361,7 +363,7 @@ nav .fa{
     
 }
 .icon-bar{
-  top: 7%;
+  top: 12%;
 }
 
     
@@ -596,7 +598,7 @@ footer{
 }
 .footer-bottom p a{
  color:#0071bc;
- font-size: 16px;
+ font-size: 11px;
  text-decoration: none;
 }
 .footer-bottom span{
@@ -727,8 +729,9 @@ footer .content .link-boxes .box{
 }
 .content .link-boxes .box li a{
   color: #fff;
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 400;
+  text-align: left;
   text-decoration: none;
   opacity: 0.8;
   transition: all 0.4s ease
@@ -789,6 +792,12 @@ footer .bottom-details .bottom_text{
   opacity: 0.8;
   text-decoration: none;
 }
+.past{
+  background-image: url(./images/Logo/Untitled\ design\ \(9\).gif);
+  background-size: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+}
 .bottom-details .bottom_text a:hover{
   opacity: 1;
   text-decoration: underline;
@@ -801,13 +810,25 @@ footer .bottom-details .bottom_text{
     flex-wrap: wrap;
   }
   footer .content .link-boxes .input-box{
-    width: 40%;
+    width: 100%;
     margin-top: 10px;
+  }
+  .link_name{
+    display: block;
+    width: 100%;
+    
+  }
+  .past{
+    height: 25vh;
+  }
+  .box{
+    display: block;
   }
 }
 @media (max-width: 700px){
   footer{
     position: relative;
+    display: block;
   }
   .content .top .logo-details{
     font-size: 26px;
