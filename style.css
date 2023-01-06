@@ -127,6 +127,10 @@ header h1{
   color: white;
   
 }
+.banner a{
+  text-decoration: none;
+  color: #fff;
+}
 .logoo{
   display: flex;
   padding: 10px;
