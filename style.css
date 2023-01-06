@@ -390,15 +390,13 @@ nav .fa-times{
 .banner{
   background-image: url(./images/you.jpg);
   background-size: 100%;
+  padding-bottom: 20px;
 }
 nav{
   background-image: url(./images/you.jpg);
   background-size: 100%;
 }
-nav img{
-  width: 50px;
-  height: 50px;
-}
+
 
 
 }
@@ -834,6 +832,9 @@ footer .bottom-details .bottom_text{
 @media (max-width: 520px){
   footer::before{
     top: 145px;
+  }
+  .font {
+    display: none;
   }
   footer .content .top{
     flex-direction: column;
