@@ -252,6 +252,13 @@ nav img{
     height: 80px;
     border-radius: 10px;
 }
+.navbar img{
+  width: 80px;
+  align-items:left;
+  
+  height: 80px;
+  border-radius: 10px;
+}
 #fcf-form {
   display:block;
 }
@@ -333,6 +340,14 @@ nav{
  width: 100%;
   
 }
+.navbar{
+  background-color: transparent;
+  background-image: url(./images/Your\ cost\ effective\ HR\ Department\ \(4\).jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+ width: 100%;
+  
+}
 nav ul li ul{
   background-color: transparent;
 }
@@ -354,6 +369,10 @@ nav ul li ul{
 nav .fa{
     display: none;
     
+}
+.navbar .fa{
+  display: none;
+  
 }
 @media(max-width: 700px){
   ul li ul li a{
@@ -422,12 +441,37 @@ nav{
 }
 h2{
   font-size: 32px;
-  text-align: center;
+  text-align: left;
 }
 p{
   font-size: 18px;
   text-align: center;
 }
+.aboutmy{
+  width: 100%;
+  justify-content: center;
+  
+  background-color: #fff;
+  background-size: 100%;
+}
+.aboutmy p{
+  text-align: left;
+  font-size: 16px;
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
+  line-height: 25px;
+}
+h3{
+font-size: 18px;
+width: 80%;
+margin-left: 10%;
+}
+.aboutmy h2{
+  width: 80%;
+margin-left: 10%;
+}
+
 .header{
     background-image: url(./images/Your\ cost\ effective\ HR\ Department.jpg);
     height: 100vh;
@@ -436,6 +480,22 @@ p{
     padding-bottom: 100px;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+.headerr{
+  background-image: url(./images/Your\ cost\ effective\ HR\ Department\ \(4\).jpg);
+  height: 65vh;
+  background-size: 100%;
+  width: 100%;
+  padding-bottom: 100px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.headerr img{
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 45%;
+  margin-top: 20%;
 }
 .header h1{
     text-align: left;
