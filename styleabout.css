@@ -13,10 +13,10 @@ li{
 }
 
 .font{
-  font-weight: 700;
+  font-weight: 300;
   display: flex;
   padding-top: 30px;
-
+font-size: 45px;
   color: #fff;
 }
 .button{
@@ -334,7 +334,7 @@ h1{
 }
 nav{
   background-color: transparent;
-  background-image: url(./images/Your\ cost\ effective\ HR\ Department\ \(4\).jpgrtment.jpg);
+  background-image: url(./images/Your\ cost\ effective\ HR\ Department\ \(4\).jpg);
   background-size: 100%;
   background-attachment: fixed;
  width: 100%;
@@ -1174,7 +1174,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   
   /* Hide the images by default */
   .mySlides {
-    display: none;
+    display: none;
   }
   
   /* Next & previous buttons */
